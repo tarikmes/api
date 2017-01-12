@@ -1,0 +1,11 @@
+{
+  "development": {
+    "username": "test",
+    "password": "test",
+    "database": "attdb",
+    "host": "localhost",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
+
