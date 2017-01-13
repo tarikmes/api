@@ -1,0 +1,10 @@
+- remove sim route
+- update/edit
+- add all fields
+- all secure!!!
+
+- send user data to auth
+- create middleware to check token
+- handle err and statuses
+- remove status from service methods
+

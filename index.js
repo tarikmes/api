@@ -3,7 +3,6 @@ const bodyParser = require('body-parser'),
       routes     = require('./routes');
 
 let app = express();
-
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json())
 app.use('/api', routes);
@@ -14,3 +13,20 @@ app.listen(port, function(){
 });
 
 module.exports = app
+
+/*
+{
+  "development": {
+    "username": "test",
+    "password": "test",
+    "database": "attdb",
+    "host": "localhost",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
+
+
+*/
+
+
